@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+body {background-color:#fafafa; padding-top:80px}
+
+a, .btn-link {color:#8B2331}
+
+a:hover, .btn-link:hover {color:#8B2331}
+
+.btn-primary {
+	border-color:#8B2331;
+	background-color:#8B2331
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	border-color:#7B1321;
+	background-color:#7B1321
+}
+
+.container {
+   max-width: 100%;
+   /* This will remove the outer padding, and push content edge to edge */
+   padding-right: 0;
+   padding-left: 0;
+ }
+	
+.navbar-inverse .brand{padding-top:5px; padding-bottom:5px; opacity:.4; transition: opacity .15s ease-in-out;}
+.navbar-inverse .brand:hover {opacity:1}
+.navbar-brand img {height:30px; width:auto}
+
+.navbar-inner .breadcrumb {margin-bottom:0; background-color:transparent}
+
+/** CKEditor style **/
+.cke_contents {width:100% !important; height: 500px !important}
+.ckeditor.small .cke_contents {height: 200px !important}
+
+/** Tables **/
+.table th {color:#999; background-color:#eee; font-size:80%; text-align:center !important; text-transform:uppercase}
+.table td {background-color:#fff; vertical-align:middle !important}
+.table td.actions {text-align:center}
+.table td.actions > i {opacity:.7}
+.table .muted td {color:#999}
+.table .muted td img {opacity:.2}
+
+.table-hover tbody tr:hover>td, .table-hover tbody tr:hover>th {background-color: #fffcf2}
+/* .table-striped tbody>tr:nth-child(even)>td, .table-striped tbody>tr:nth-child(even)>th {background-color: #f9f9f9;} */
+
+#main-container{margin-top:60px}
+
+.container.login {margin-top:100px}
+
+.users.login {
+	margin-bottom:20px;
+	padding:20px;
+	border-radius:3px;
+	box-shadow:1px 1px 3px rgba(0,0,0,.3);
+	background-color:#fff
+}
+
+.users.login img {width:80%; max-width:296px; height:auto}
+
+.users.login form {
+	width:65%;
+	margin:0 auto
+}
+
+form.well{margin-top:20px}
+
+form fieldset img, form fieldset .btn-delete {margin-bottom:10px}
+
+.submit {margin:20px 0}
+
+.login{text-align:center}
+.login form img {margin:40px auto 50px}
+
+.form .btn-group {clear:left; margin:20px 0}
+.form img {display:block}
+
+.btn-inverse {background-color:#333}
+.btn-inverse:hover {background-color:#222}
+.btn-inverse i {color:#fff}
+
+.boxed {margin-bottom:20px; border-radius:7px; box-shadow: 0 1px 4px rgba(0,0,0,.065)}
+.boxed .nav-list {padding:0}
+.boxed li a {border-bottom:1px solid #ddd; border-left:1px solid #ddd; ; border-right:1px solid #ddd}
+.boxed li:first-child a {border-top:1px solid #ddd; border-radius:7px 7px 0 0}
+.boxed li.active a, .boxed li.active a:hover, .boxed li:first-child.active a {border-color:#444; color:#fff; background-color:#333}
+.boxed li:last-child a {border-radius:0 0 7px 7px}
+
+.boxed li a {padding:10px 15px; color:#999}
+.boxed li a i {opacity:.4; color: #ccc;}
+.boxed li a:hover i {opacity:.6}
+.boxed .active i {opacity:1}
+/*.users.form .btn {display:block; margin:0 auto}*/
+
+.nav.nav-tabs a {cursor:pointer}
+
+.input.text {margin-bottom:10px}
+
+.form-group .row {margin}
+
+.pagination .active,
+.pagination .disabled {
+    float: left;
+    padding: 0 14px;
+    color: #999;
+    cursor: default;
+    line-height: 32px;
+    text-decoration: none;
+    border: 1px solid #DDD;
+    border-left-width: 0;
+}
+
+.pagination li:first-child {
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+	border-left-width: 1px;
+}
+
+.pagination li:last-child {
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	border-left-width: 0;
+}
+
+.connectedSortable {
+	min-width:200px;
+	min-height:300px;
+	padding:10px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	background-color:#fff;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.connectedSortable li {
+	margin-bottom:1px;
+	padding:3px 6px;
+	border-radius:4px;
+	color:#8ac;
+	background-color:#bdf;
+	cursor:pointer
+}
+
+.connectedSortable li:hover {background-color:#ace}
+
+.error .error-message {
+	margin-top:10px;
+	padding:15px;
+	background-color: #f2dede;
+	border:1px solid #eed3d7;
+	border-radius:4px;
+	color: #b94a48;
+}
